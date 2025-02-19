@@ -6,7 +6,7 @@
     "excessCommands": {
         "utility": true,
         "other": false,
-        "hentai": false,
+        "hentai": true,
         "troll": false,
         "levelling" : true,
         "lavalink" : true,
