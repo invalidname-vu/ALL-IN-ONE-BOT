@@ -34,7 +34,7 @@ module.exports = {
     async execute(interaction) {
         if (interaction.isCommand && interaction.isCommand()) {
         
-            const BOT_ICON = "https://cdn.discordapp.com/emojis/1334648756649590805.png";
+            const BOT_ICON = "https://i.imgur.com/G0sGpo0.png";
             const EMBED_COLOR = "#3498db";
             const COMMANDS_DIR = path.join(__dirname, '../../commands');
             const EXCESS_COMMANDS_DIR = path.join(__dirname, '../../excesscommands');
@@ -123,9 +123,9 @@ module.exports = {
                 const totalCount = masterCount + subCount + prefixCount;
                 // Info Page
                 pages.push({
-                    title: 'Bot Information',
+                    title: 'Information',
                     description: [
-                        `- **Developer:** GlaceYT`,
+                        `- **Powered by Food and Mora**`,
                         `- **Version:** 1.2.1`,
                         `- **Commands Loaded:** ${totalCommandsLoaded}`,
                         `- **Master Commands:** ${masterCount}`,
@@ -134,7 +134,7 @@ module.exports = {
                         `- **Categories Enabled:** ${getEnabledCategories(config.categories).join(', ')}`,
                         `- **Prefix Commands:** ${Object.values(config.excessCommands).some(v => v) ? 'Enabled' : 'Disabled'}`
                     ].join('\n'),
-                    author: { name: 'All In One Bot' }
+                    author: { name: 'Paimon | Best travel companion ever!' }
                 });
 
                 // Command Pages for each category
@@ -266,7 +266,7 @@ module.exports = {
             });
 
             // Collector Setup to handle interactions
-            const collector = reply.createMessageComponentCollector({ time: 120000 });
+            const collector = reply.createMessageComponentCollector({ time: 300000 });
 
             collector.on('collect', async (i) => {
                 if (i.user.id !== interaction.user.id) return;
