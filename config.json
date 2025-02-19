@@ -5,9 +5,9 @@
     "mongodbUri": "",
     "excessCommands": {
         "utility": true,
-        "other": true,
-        "hentai": true,
-        "troll": true,
+        "other": false,
+        "hentai": false,
+        "troll": false,
         "levelling" : true,
         "lavalink" : true,
         "economy" : true,
@@ -25,7 +25,7 @@
         "core" :true,
         "lavalink": true,
         "fun": true,
-        "distube": true,
+        "distube": false,
         "setups": true
     },
      "lavalink": {
