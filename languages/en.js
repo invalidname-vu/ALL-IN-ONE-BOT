@@ -20,7 +20,7 @@ const enLang = {
     channelMentionValid: 'Please mention a valid channel.',
     //invite.js
     inviteTitle: "Invite Link",
-    inviteDescription: "Click [here]({inviteURL}) to invite the bot to your server!",
+    inviteDescription: "Click [here]({inviteURL}) to invite Paimon to your server!",
     inviteImageURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1256597293323256000/invite.png?ex=668158ed&is=6680076d&hm=030c83f567ffdaf0bebb95e50baaec8bb8a8394fa1b7717cc43c3622447f58e3&",
     //ping.js
     pingDescription: "Ping!",
@@ -97,7 +97,7 @@ const enLang = {
     loopModeDescription: 'Loop mode: "queue" or "song"',
     loopError: 'An error occurred while trying to toggle loop mode.',
     loopNoVoiceChannel: '**You need to be in a voice channel to control music playback!**',
-    loopNoPermissions: 'I need the permissions to join and speak in your voice channel!',
+    loopNoPermissions: 'Paimon needs the permissions to join and speak in your voice channel!',
     loopNoQueueTitle: "Oops!",
     loopNoQueue: '**There is no queue in this guild.**',
     loopTitle: "Loop",
@@ -108,7 +108,7 @@ const enLang = {
     // nowplaying.js
     nowPlayingDescription: 'Show the currently playing song',
     nowPlayingNoVoiceChannel: '**You need to be in a voice channel to see what\'s playing!**',
-    nowPlayingNoPermissions: 'I need the permissions to join and speak in your voice channel!',
+    nowPlayingNoPermissions: 'Paimon needs the permissions to join and speak in your voice channel!',
     nowPlayingNoSongTitle: "Oops!",
     nowPlayingNoSong: 'There is no song currently playing.',
     nowPlayingTitle: "Now Playing..",
@@ -122,7 +122,7 @@ const enLang = {
     // pause.js
     pauseDescription: 'Pause the current song',
     pauseNoVoiceChannel: '**You need to be in a voice channel to pause music!**',
-    pauseNoPermissions: 'I need the permissions to join and speak in your voice channel!',
+    pauseNoPermissions: 'Paimon needs the permissions to join and speak in your voice channel!',
     pauseInProgress: '**Pausing the current song...**',
     pauseTitle: "Song Paused",
     pauseFooterText: 'Distube Player',
@@ -140,7 +140,7 @@ const enLang = {
     playInputDescription: 'The link or name of the song or playlist',
     playNoInput: 'You need to provide the link or name of the song or playlist!',
     playNoVoiceChannel: 'You need to be in a voice channel to play music!',
-    playNoPermissions: 'I need the permissions to join and speak in your voice channel!',
+    playNoPermissions: 'Paimon needs the permissions to join and speak in your voice channel!',
     playInProgress: '💎Searching and Playing: ',
     playError: 'An error occurred while trying to play the song or playlist.',
     // queue.js
@@ -154,7 +154,7 @@ const enLang = {
     // resume.js
     resumeDescription: 'Resume the paused song',
     resumeNoVoiceChannel: '**You need to be in a voice channel to resume music!**',
-    resumeNoPermissions: 'I need the permissions to join and speak in your voice channel!',
+    resumeNoPermissions: 'Paimon needs the permissions to join and speak in your voice channel!',
     resumeInProgress: '**Resuming the paused song...**',
     resumeSuccessTitle: 'Song Resumed',
     resumeSuccessMessage: '**The paused song has been resumed.**',
@@ -171,7 +171,7 @@ const enLang = {
     seekAlertTitle: 'Alert!',
     seekAlertMessage: '- This command can only be used through slash command!\n- Please use `/seek` to control song.',
     seekNoVoiceChannel: '**You need to be in a voice channel to seek!**',
-    seekNoPermissions: '**I need the permissions to join and speak in your voice channel!**',
+    seekNoPermissions: '**Paimon needs the permissions to join and speak in your voice channel!**',
     seekInvalidFormat: '**Invalid timestamp format. Please use seconds (e.g., 120) or mm:ss (e.g., 2:00).**',
     seekInProgress: '**Seeking to the specified timestamp...**',
     seekSuccessTitle: 'Successfully Seeked!',
@@ -182,7 +182,7 @@ const enLang = {
     // skip.js
     skipDescription: 'Skip the current song in the queue',
     skipNoVoiceChannel: '**You need to be in a voice channel to skip music!**',
-    skipNoPermissions: '**I need the permissions to join and speak in your voice channel!**',
+    skipNoPermissions: '**Paimon needs the permissions to join and speak in your voice channel!**',
     skipInProgress: '**Skipping the current song...**',
     skipNoSongsTitle: 'Oops!',
     skipNoSongsMessage: '**No more songs in the queue.**',
@@ -197,7 +197,7 @@ const enLang = {
     // stop.js
     stopDescription: 'Stop the current queue and leave the voice channel',
     stopNoVoiceChannel: '**You need to be in a voice channel to stop music!**',
-    stopNoPermissions: '**I need the permissions to join and speak in your voice channel!**',
+    stopNoPermissions: '**Paimon needs the permissions to join and speak in your voice channel!**',
     stopInProgress: '**Stopping the queue!**',
     stopSuccessTitle: 'Stopped!',
     stopSuccessMessage: '**The queue has been stopped**',
@@ -210,7 +210,7 @@ const enLang = {
     volumeDescription: 'Set the volume for the music player',
     volumeLevelDescription: 'Volume level between 1 and 100',
     volumeNoVoiceChannel: '**You need to be in a voice channel to set the volume!**',
-    volumeNoPermissions: '**I need the permissions to join and speak in your voice channel!**',
+    volumeNoPermissions: '**Paimon needs the permissions to join and speak in your voice channel!**',
     volumeNoSongTitle: 'Oops!',
     volumeNoSongMessage: '**There is no song currently playing.**',
     volumeSuccessTitle: 'Volume Set',
@@ -399,7 +399,7 @@ const enLang = {
     banCommandDescription: 'Bans a member from the server',
     banTargetDescription: 'The member to ban',
     banNoPermission: 'You do not have permission to use this command.',
-    banCannotBan: 'I cannot ban ${target.tag}!',
+    banCannotBan: 'Paimon cannot ban ${target.tag}!',
     banSuccess: '${target.tag} has been banned.',
     banOnlySlashCommand: '- This command can only be used through slash command!\n- Please use `/ban` to ban to a member.',
     banAlert: 'Alert!',
@@ -415,7 +415,7 @@ const enLang = {
     kickCommandDescription: 'Kicks a member from the server',
     kickTargetDescription: 'The member to kick',
     kickNoPermission: 'You do not have permission to use this command.',
-    kickCannotKick: 'I cannot kick ${target.tag}!',
+    kickCannotKick: 'Paimon cannot kick ${target.tag}!',
     kickSuccess: '${target.tag} has been kicked.',
     kickOnlySlashCommand: '- This command can only be used through slash command!\n- Please use `/kick` to kick a member.',
     kickAlert: 'Alert!',
@@ -428,7 +428,7 @@ const enLang = {
     muteTargetDescription: 'The member to mute',
     muteDurationDescription: 'Duration of the mute in minutes',
     muteNoPermission: 'You do not have permission to use this command.',
-    muteCannotMute: 'I cannot mute ${target.tag}!',
+    muteCannotMute: 'Paimon cannot mute ${target.tag}!',
     muteSuccess: '${target.tag} has been muted for ${duration} minutes.',
     muteOnlySlashCommand: '- This command can only be used through slash command!\n- Please use `/mute` to mute a member.',
     muteAlert: 'Alert!',
@@ -439,7 +439,7 @@ const enLang = {
     purgeInvalidAmount: 'Please enter a number between 1 and 100.',
     purgeSuccess: 'Cleared ${messages.size} messages.',
     purgeFailed: 'Failed to purge messages. Please try again.',
-    purgeNoDeletePermission: 'I do not have permission to delete messages.',
+    purgeNoDeletePermission: 'Paimon does not have permission to delete messages.',
     purgeMessagesOld: 'Cannot delete messages older than 14 days.',
     purgeUnknownMessageRef: 'Invalid Form Body: Unknown message reference.',
     // removerole.js
@@ -460,7 +460,7 @@ const enLang = {
     setnicknameSuccess: 'Nickname of {target} has been set to {nickname}.',
     setnicknameNoNickname: 'Please provide a nickname.',
     setnicknameMemberNotFound: 'Member not found.',
-    setnicknameCannotChange: 'I cannot change the nickname of {target}.',
+    setnicknameCannotChange: 'Paimon cannot change the nickname of {target}.',
     setnicknameFailed: 'Failed to set the nickname. Please try again later.',
     setnicknamePrefixError: '- This command can only be used through slash command!\n- Please use `/setnickname` to change nickname of a member.',
     // setslowmode.js
@@ -538,7 +538,7 @@ const enLang = {
     // remind.js
     remindDescription: 'Set a reminder with a task',
     remindInvalidInput: 'Please provide a valid number of minutes and a task.',
-    remindSuccess: 'I\'ll remind you about "{task}" in {minutes} minutes.',
+    remindSuccess: 'Paimon\'ll remind you about "{task}" in {minutes} minutes.',
     remindFollowUp: '{user}, this is your reminder: "{task}"',
     // showemojis.js
     showemojisDescription: 'Displays available emojis with buttons',
@@ -585,8 +585,8 @@ const enLang = {
     // mplay.js
     mplayDescription: 'Play a song from YouTube or Spotify',
     joinVoiceChannelError: 'You need to join a voice channel first!',
-    connectPermissionError: 'I cannot connect to your voice channel, make sure I have the proper permissions!',
-    speakPermissionError: 'I cannot speak in this voice channel, make sure I have the proper permissions!',
+    connectPermissionError: 'Paimon cannot connect to your voice channel, make sure she has the proper permissions!',
+    speakPermissionError: 'Paimon cannot speak in this voice channel, make sure she has the proper permissions!',
     searchError: 'There was an error while searching:',
     noResultsTitle: 'No Results Found',
     trackEnqueuedTitle: 'Track Enqueued',
@@ -668,9 +668,9 @@ const enLang = {
     ramadanTitle: '🌙 Ramadan Countdown',
     ramadanCountdown: 'days until Ramadan',
     // rpc.js
-    rpcDescription: 'Play a game of Rock, Paper, Scissors with the bot.',
+    rpcDescription: 'Play a game of Rock, Paper, Scissors with Paimon.',
     rpcTitle: 'Rock, Paper, Scissors',
-    rpcBotChoice: 'I chose',
+    rpcBotChoice: 'Paimon choses',
     // assassinate.js
     assassinateDescription: 'Generate a random kill scenario for a specified user.',
     assassinateUsage: 'assassinate <mention user>',
