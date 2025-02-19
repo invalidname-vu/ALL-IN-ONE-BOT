@@ -123,7 +123,7 @@ module.exports = {
                 const totalCount = masterCount + subCount + prefixCount;
                 // Info Page
                 pages.push({
-                    title: 'Information',
+                    title: 'Paimon - Best travel companion ever!',
                     description: [
                         `- **Powered by Food and Mora**`,
                         `- **Version:** 1.2.1`,
@@ -134,7 +134,7 @@ module.exports = {
                         `- **Categories Enabled:** ${getEnabledCategories(config.categories).join(', ')}`,
                         `- **Prefix Commands:** ${Object.values(config.excessCommands).some(v => v) ? 'Enabled' : 'Disabled'}`
                     ].join('\n'),
-                    author: { name: 'Paimon | Best travel companion ever!' }
+                    author: { name: 'GSOM | Genshin Server of Might' }
                 });
 
                 // Command Pages for each category
