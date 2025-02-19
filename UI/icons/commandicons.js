@@ -8,7 +8,7 @@ const cmdIcons = {
     msgIcon : 'https://cdn.discordapp.com/emojis/915167284648116244.png',
     rippleIcon : 'https://cdn.discordapp.com/emojis/903301195307843595.gif',
     levelUpIcon : 'https://cdn.discordapp.com/emojis/908223980438163476.gif',
-    SSRRIcon : 'https://cdn.discordapp.com/emojis/1334648756649590805.png'
+    SSRRIcon : 'https://i.imgur.com/G0sGpo0.png'//'https://cdn.discordapp.com/emojis/1334648756649590805.png'
 };
 
 module.exports = cmdIcons;
