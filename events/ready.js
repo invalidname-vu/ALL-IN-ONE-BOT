@@ -5,8 +5,7 @@ module.exports = {
     once: true,
     execute(client) {
 
-        const statusMessages = ["🎮 Playing Genshin Impact", "Paimon, best travel companion ever!", "I am eating Hamburger", "and Potato", "everyday!", "Potato is", "YAY!!!", "Vegetables", "YAY!!!", "eating eating eating eating", "EVERY NIGHT!!!"];
-        const statusTypes = [ 'dnd', 'idle'];
+        
         const activities = [
             { name: 'Genshin Impact', type: ActivityType.Playing },
             //{ name: 'Netflix', type: ActivityType.Watching },
@@ -20,28 +19,22 @@ module.exports = {
      
         let currentActivityIndex = 0;
         let currentStatusIndex = 0;
-        let currentStatusMessIndex = 0;
-        let currentTypeIndex = 0;
 
  
         function setActivityAndStatus() {
         
             const activity = activities[currentActivityIndex];
             const status = statuses[currentStatusIndex];
-            const currentStatusMess = statusMessages[currentStatusMessIndex];
-            const currentType = statusTypes[currentTypeIndex];
 
           
             client.user.setPresence({
-                activities: [{ name: currentStatus, type: ActivityType.Custom }],
-                status: currentType,
+                activities: [activity],
+                status: status,
             });
 
             
             currentActivityIndex = (currentActivityIndex + 1) % activities.length;
             currentStatusIndex = (currentStatusIndex + 1) % statuses.length;
-            currentStatusMessIndex = (currentStatusMessIndex + 1) % statusMessages.length;
-            currentTypeIndex = (currentTypeIndex + 1) % statusTypes.length;
         }
 
         
